@@ -1,0 +1,110 @@
+/*
+Name: Brisa Carter
+Assignment: Week 5 - Resume in HTML
+Description: A simple resume
+Date: 02/14/25
+*/
+
+/*used AI to generate styles, modified to fit my needs */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+/*header*/
+header {
+    text-align: center;
+    background-color: #3f5774;
+    color: #ffffff;
+    padding: 20px;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header h3 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+header picture img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+/*sections*/
+section {
+    padding: 10px;
+}
+
+section h3 {
+    color: #3f5774;
+    border-bottom: 2px solid #3f5774;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin: 10px 0;
+}
+
+section ol {
+    padding-left: 20px;
+}
+
+section ol li {
+    margin: 5px 0;
+}
+/*tables*/
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table th {
+    padding: 10px;
+    text-align: left;
+    background-color: #3f5774;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+table td {
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    background-color: #3f5774;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
